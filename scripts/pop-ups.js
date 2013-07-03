@@ -141,7 +141,6 @@
 				});
 			}
 			
-			
 			$(document).ready(function(){
 				$("#popupContact").fadeOut();
 				popupContactStatus = 0;

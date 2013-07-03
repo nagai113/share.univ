@@ -37,7 +37,6 @@ $.fn.mCustomScrollbar = function (scrollType,animSpeed,easeType,bottomSpace,drag
 			$customScrollBox_horWrapper.css("width",999999); //set a rediculously high width value ;)
 			$customScrollBox.data("totalContent",$customScrollBox_container.width()); //get inline div width
 			$customScrollBox_horWrapper.css("width",$customScrollBox.data("totalContent")); //set back the proper content width value
-			
 			if($customScrollBox_container.width()>visibleWidth){ //enable scrollbar if content is long
 				$dragger.css("display","block");
 				if(reloadType!="resize" && $customScrollBox_container.width()!=$customScrollBox.data("contentWidth")){
